@@ -1,0 +1,83 @@
+h1{
+    margin: 0;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 82px;
+    color: #FF9000;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FF9000;
+}
+
+p{
+    margin: 0;
+}
+
+.hero{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1750px;
+    padding: 92px;
+    padding-right: 158px;
+    background-image: url(/images/hero_background.png);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px) saturate(120%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 21px;
+}
+
+.hero-description{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #F8F6F8;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+.hero_info{
+    max-width: 710px;
+}
+
+.title{
+    margin-bottom: 70px;
+}
+
+.hero-review_title{
+    margin-bottom: 12px;
+}
+
+.hero_img{
+    align-self: center;
+}
+
+.hero-review_description{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #F8F6F8;
+}
+
+.last_star{
+    margin-right: 14px; 
+}
+
+.hero-review_item-review{
+    display: inline-block;
+    transform: translateY(-4px);
+}
+

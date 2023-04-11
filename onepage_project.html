@@ -28,34 +28,39 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="hero">
             <div class="hero_info">
-                <h1>Название проекта</h1>
+                <h1 class="title">Название проекта</h1>
                 <h2>Основные мысли</h2>
-                <p>Здесь небольшой текст, слоган данного проекта, который просто для привлечения внимания
+                <p class="hero-description">Здесь небольшой текст, слоган данного проекта, который просто для привлечения внимания
                     Здесь небольшой текст, слоган данного проекта, который просто для привлечения внимания</p>
-                <h2>Оценка проекта</h2>
+                <h2 class="hero-review_title">Оценка проекта</h2>
                 <div class="hero_review">
-                    <div class="hero_review_stars">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_empty.png">
-                        <img src="/images/star_empty.png">
+                    <div class="hero-review_item">
+                        <div class="hero_review_stars hero-review_description">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_empty.png">
+                            <img class="last_star" src="/images/star_empty.png">
+                            <span class="hero-review_item-review">
+                                3.5 (пользователями)
+                            </span>  
+                        </div>
                     </div>
-                    <div>
-                        3.5 (пользователями) 
-                    </div>
-                    <div class="hero_review_stars">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_full.png">
-                        <img src="/images/star_empty.png">
-                    </div>
-                    <div>
-                        4.5 (пользователями) 
+                    <div class="hero-review_item">
+                        <div class="hero_review_stars hero-review_description">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_full.png">
+                            <img src="/images/star_full.png">
+                            <img class="last_star" src="/images/star_empty.png">
+                            <span class="hero-review_item-review">
+                                4.5 (пользователями)
+                            </span> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,54 +68,58 @@
                 <img src="/images/hero_img.png">
             </div>
         </div>
-        <div class="description">
-            <h1>Описание</h1>
-            <p>Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
-                Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
-                Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
-            </p>
-            <div class="link_container">
-                <div class="link_container_left-part">
-                    Ссылка на скачивание
-                </div>
-                <div class="link_container_right-part">
-                    <a href="/">Здесь типо ссылка на архив</a>
-                </div>
-            </div>
-        </div>
-        <div class="about-project">
-            <h1>О проекте</h1>
-            <div class="about-project_category_section">
-                <div class="about=project_category">
-                    <div class="about=project_category_header">Специализация</div>
-                    <div class="about=project_category_description">Дизайн мобильных приложений</div>
-                </div>
-                <div class="about=project_category">
-                    <div class="about=project_category_header">Срок разработки</div>
-                    <div class="about=project_category_description">3.5 месяца</div>
-                </div>
-                <div class="about=project_category">
-                    <div class="about=project_category_header">Тип проекта</div>
-                    <div class="about=project_category_description">Командный</div>
-                </div>
-                <div class="about=project_category">
-                    <div class="about=project_category_header">Состав участников</div>
-                    <div class="about=project_category_description">
-                        <div class="about=project_category_description_user">Бахарева Анастасия</div>
-                        <div class="about=project_category_description_user">Сизова Екатерина</div>
-                        <div class="about=project_category_description_user">Гольдфарб Михаил</div>
-                        <div class="about=project_category_description_user">Тетюшев Тимофей</div>
-                        <div class="about=project_category_description_user">Воротов Дмитрий</div>
+
+        <div class=''>
+            <div class="description">
+                <h1>Описание</h1>
+                <p>Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
+                    Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
+                    Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
+                </p>
+                <div class="link_container">
+                    <div class="link_container_left-part">
+                        Ссылка на скачивание
+                    </div>
+                    <div class="link_container_right-part">
+                        <a href="/">Здесь типо ссылка на архив</a>
                     </div>
                 </div>
             </div>
-            <div class="about-project_edit">
-                <div>
-                    <img src="/images/pen.png">
-                    Редактировать
+            <div class="about-project">
+                <h1>О проекте</h1>
+                <div class="about-project_category_section">
+                    <div class="about=project_category">
+                        <div class="about=project_category_header">Специализация</div>
+                        <div class="about=project_category_description">Дизайн мобильных приложений</div>
+                    </div>
+                    <div class="about=project_category">
+                        <div class="about=project_category_header">Срок разработки</div>
+                        <div class="about=project_category_description">3.5 месяца</div>
+                    </div>
+                    <div class="about=project_category">
+                        <div class="about=project_category_header">Тип проекта</div>
+                        <div class="about=project_category_description">Командный</div>
+                    </div>
+                    <div class="about=project_category">
+                        <div class="about=project_category_header">Состав участников</div>
+                        <div class="about=project_category_description">
+                            <div class="about=project_category_description_user">Бахарева Анастасия</div>
+                            <div class="about=project_category_description_user">Сизова Екатерина</div>
+                            <div class="about=project_category_description_user">Гольдфарб Михаил</div>
+                            <div class="about=project_category_description_user">Тетюшев Тимофей</div>
+                            <div class="about=project_category_description_user">Воротов Дмитрий</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-project_edit">
+                    <div>
+                        <img src="/images/pen.png">
+                        Редактировать
+                    </div>
                 </div>
             </div>
         </div>
+        
         <div class="review">
             <div class="review_left-part">
                 <h1>Оценить проект</h1>
