@@ -1,3 +1,7 @@
+body{
+    background-image: url(/images/Frame\ 12.png);
+}
+
 h1{
     margin: 0;
     font-family: 'Mont';
@@ -51,7 +55,7 @@ p{
     max-width: 710px;
 }
 
-.title{
+.hero_title{
     margin-bottom: 70px;
 }
 
@@ -81,3 +85,141 @@ p{
     transform: translateY(-4px);
 }
 
+.main_container{
+    /*max-width: 1760px;*/
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description{
+    max-width: 940px;
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 61px 70px 40px 70px;
+}
+
+.about-project{
+    background: #F8F6F8;
+    border-radius: 21px;
+    max-width: 780px;
+    padding: 61px 61px 54px 48px;
+}
+
+.description_title{
+    margin-bottom: 38px;
+}
+
+.description_text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.link_container_left-part{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FF9000;
+    margin-right: 31px;
+}
+
+.description_link{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.link_container{
+    display: flex;
+    align-items: center;
+}
+
+.about-project_category_header{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FF9000;
+    min-width: 320px;
+}
+
+.about-project_category_description{
+    font-family: 'Gordita';
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+    min-width: 362px;
+}
+
+.about-project_category{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.about-project_edit{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FF9000;
+}
+
+.about-project_img{
+    margin-right: 15px;
+}
+
+.review{
+    display: flex;
+    padding: 56px;
+    background: #F8F6F8;
+    border-radius: 21px;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.review_item{
+    min-width: 50%;
+}
+
+.review_item:last-child{
+    display: flex;
+    justify-content: right;
+}
+
+.review_stars{
+    width: 6%;
+    margin-bottom: 26px;
+}
+
+.review_text{
+    width: 80%;
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+    margin-top:25px;
+}
+
+.review-title{
+    margin-bottom: 28px;
+}
