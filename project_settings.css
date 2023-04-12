@@ -1,0 +1,233 @@
+body{
+    background-image: url(/images/Frame\ 12.png);
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.main-info_edit{
+    margin: auto;
+    margin-top: 82px;
+    max-width: 1736px;
+    padding: 64px 74px 32px 70px;
+    background: #F8F6F8;
+    border-radius: 21px;
+}
+
+.main-info_title{  
+    width: 100%;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 82px;
+    color: #FF9000;
+    margin-bottom: 44px;
+}
+
+.input-heading{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FF9000;
+    margin-bottom: 12px;
+}
+
+.main_input{
+    box-sizing: border-box;
+    max-width: 518px;
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    color: #828396;
+    min-width: 518px;
+    max-height: 60px;
+}
+
+.main_select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url(/images/arrow.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+}
+
+.main_input:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.main-info_edit_item:last-child{
+    width: 100%;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info_edit_form{
+    display: flex;
+}
+
+.textarea-heading{
+    width: 100%;
+}
+
+.textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    max-height: 120px;
+    background: #F3F0F8;
+    border: 3px solid #090E2B;
+    border-radius: 20px;
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    color: #828396;
+    margin-bottom: 28px;
+    padding: 26px 24px 26px 24px;
+}
+
+.textarea:last-child{
+    max-height: 294px;
+    height:100%;
+}
+
+.check_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.check{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FF9000;
+    margin-left: 9px;
+}
+
+.settings_title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+    color: #FF9000;
+}
+
+.center_container{
+    display: flex;
+    max-width: 1736px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 72px;
+}
+
+.center_container_item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 2.7vw;
+}
+
+.people{
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 64px 48px 48px 70px;
+}
+
+.photos{
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 60px 76px 54px 52px;
+}
+
+.photos_title{
+    margin-bottom: 27px;
+}
+
+.addition{
+    display: flex;
+}
+
+.photos_add{
+    display: flex;
+    align-items: center;
+}
+
+.photos_add-text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 27px;
+}
+
+.people_text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.people_add{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FF9000;
+    margin-left: 12px;
+}
+
+.link{
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 24px 154px 24px 52px;
+}
+
+.photos_main-word{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FF9000;
+}
+
+.photos_text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.photos_img{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.photos_img_item{
+    width:90%;
+}

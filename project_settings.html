@@ -7,7 +7,7 @@
     <title>Settings</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="general_styles.css">
-    <link rel="stylesheet" href="onepage_profile.css">
+    <link rel="stylesheet" href="project_settings.css">
     <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
 </head>
 <body>
@@ -28,40 +28,90 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="main-info_edit">
-            <h1>Редактировать данные о проекте</h1>
+            <h1 class="main-info_title">Редактировать данные <br> о проекте</h1>
             <div>
-                <div>
-                    <div class="input-heading">Название проекта</div>
-                    <input required type="text" name="last-name" placeholder="Иванов" class="input first-input">
-                    <div class="input-heading">Срок разработки</div>
-                    <input required type="text" name="last-name" placeholder="Иванов" class="input first-input">
-                    <div class="input-heading">Тип проекта</div>
-                    <input required type="text" name="last-name" placeholder="Иванов" class="input first-input">
-                    <div class="input-heading">Специализация</div>
-                    <input required type="text" name="last-name" placeholder="Иванов" class="input first-input">
-                </div>
-                <div>
-                    <strong class="input-heading textarea-heading">О себе</strong>
-                    <textarea name="personal-info" placeholder="Расскажите кратко о себе, своих навыках, опыте работы"  class="textarea"></textarea>
-                </div>
-                
+                <form action="" autocomplete method="POST" class="main-info_edit_form">
+                    <div class="main-info_edit_item">
+                        <div class="input-heading">Название проекта</div>
+                        <input required type="text" name="last-name" placeholder="Название проекта" class="input main_input">
+                        <div class="input-heading">Срок разработки</div>
+                        <input required type="text" name="last-name" placeholder="Указать промежуток времени" class="input main_input">
+                        <div class="input-heading">Тип проекта</div>
+                        <select name="list" class="input main_input main_select">
+                            <option value="" disabled selected>Выбор из вариантов</option>
+                            <option value="oneperson">Индивидуальный</option>
+                            <option value="team">Командный</option>
+                        </select>
+                        <div class="input-heading">Специализация</div>
+                        <input required type="text" name="last-name" placeholder="Указать род деятельности" class="input main_input">
+                    </div>
+                    <div class="main-info_edit_item">
+                        <div class="input-heading textarea-heading">Ключевые мысли</div>
+                        <textarea name="personal-info" placeholder="Расскажите о проекте кратко"  class="textarea"></textarea>
+                        <div class="input-heading textarea-heading">Описание</div>
+                        <textarea name="personal-info" placeholder="Ну а теперь можно поподробнее с чувством, толком. с расстановкой"  class="textarea"></textarea>
+                    </div>
+                </form> 
+            </div>
+            <div class="check_container">
+                <img src="/images/check.png">
+                <span class="check">Сохранить изменения</span>
             </div>
         </div>
-        <div class="people">
-            <h2 class="settings_titlw">Участники</h2>
-            <p>Здесь вы можете указать людей, которые вам помогали в разработке проекта, либо были как-либо затронуты
-                (ссылкой на их профиль, либо просто ФИО)</p>
-            <input required type="text" name="last-name" placeholder="Иванов" class="input first-input">
-            <img src="/images/user.png">
+
+        <div class="center_container">
+            <div class="center_container_item">
+                <div class="people">
+                    <h2 class="settings_title">Участники</h2>
+                    <p class='people_text'>Здесь вы можете указать людей, которые вам помогали в разработке проекта, либо были как-либо затронуты
+                        (ссылкой на их профиль, либо просто ФИО)</p>
+                    <input required type="text" name="last-name" placeholder="Ссылка на профиль" class="input main_input">
+                    <input required type="text" name="last-name" placeholder="Ссылка на профиль" class="input main_input">
+                    <input required type="text" name="last-name" placeholder="Ссылка на профиль" class="input main_input">
+                    <input required type="text" name="last-name" placeholder="Ссылка на профиль" class="input main_input">
+                    <input required type="text" name="last-name" placeholder="Ссылка на профиль" class="input main_input">
+                    <div>
+                        <img src="/images/user.png">
+                        <span class="people_add">+Добавить участника</span>
+                    </div>
+                    
+                </div>
+                <div class="link">
+                    <h2 class="settings_title">Ссылка на проект</h2>
+                    <input required type="text" name="last-name" placeholder="Ссылка на архив с проектом" class="input main_input">
+                </div>
+            </div>
+            <div class="photos">
+                <h2 class="settings_title photos_title">Фотографии</h2>
+                <div class="photos_text">Чтобы другие пользователи могли лучше понять, как работает ваш проект, как он выглядит - рекомендуем добавить фотографии</div>
+                <div class="photos_text"><span class="photos_main-word">Аватарка проекта</span> - то, что пользователь увидит сначала, когда откроет проект. Это должно быть что-то заметное, цепляющее </div>
+                <div class="photos_text"><span class="photos_main-word">Основное фото</span> - будет использоваться как задний фон на аватарке и главное фото, в панеле отзывов. Поэтому оно должно быть информативным </div>
+                <div class="photos_img">
+                    <div>
+                        <img class="photos_img_item" src="/images/project_settings_1.png">
+                    </div>
+                    <br>
+                    <div>
+                        <img class="photos_img_item" src="/images/project_settings_2.png">
+                    </div>
+                    
+                </div>
+                <div class="addition">
+                    <div class="photos_add">
+                        <img src="/images/photo.png">
+                        <span class="photos_add-text">Добавить аватарку проекта</span>
+                    </div>
+                    <div class="photos_add">
+                        <img src="/images/photo.png">
+                        <span class="photos_add-text">Добавить основное фото</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="link">
-            <h2 class="settings_titlw">Ссылка на проект</h2>
-        </div>
-        <div class="photoa">
-            <h2 class="settings_titlw">Фотографии</h2>
-        </div>
+        
     </main>
     <footer class="footer">
         <div class="footer-container container">
