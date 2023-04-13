@@ -1,5 +1,216 @@
+/*!!!!!!!!GENERAL_STYLES!!!!!!!!!!*/
+
+.usual-button {
+    background-color: #FEB250;
+    padding: 1.14vw 52px;
+    border-radius: 32px;
+    color: #F8F6F8 !important;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+a:visited{
+    color: inherit;
+}
+  
+input {
+    text-decoration: none;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+html{
+    font-family: 'Gordita';
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    max-width: 100%;
+    margin: 0;
+}
+  
+.input_file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+  
+*:focus {outline:none !important}
+
+  /* Header */
+.header {
+    width: 100%;
+    height: 5.83vw;
+    border-radius: 0px 0px 60px 60px;
+    background-color: #F8F6F8;
+    font-size: 2.08vw;
+    line-height: 2.23vw;
+    color: #000000;
+    line-height: 1.56vw;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    width: 16.7vw;
+    margin-left: 3.95vw;
+    margin-right: 6.77vw;
+}
+
+.nav-list
+{
+    display: flex;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.nav-item:not(:last-child)
+{
+    margin-right: 6.4vw;
+}
+
+.user-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 7.23vw;
+}
+
+.user-icon {
+    width: 2.18vw;
+    margin-right: 0.78vw;
+}
+
+/* Main*/
+
+
+.input::placeholder {
+    color: #828396;
+}
+
+.input {
+    border: 3px solid #090E2B;
+    border-radius: 77px;
+    padding: 15px 1.19vw 15px 1.19vw;
+    margin-bottom: 13px;
+    transition: .3s box-shadow, .3s border-color;
+    background: #F3F0F8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.35vw;
+}
+
+.input:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input:focus {
+    box-shadow: none;
+    border-color: #FF9000;
+}
+  
+  /* Footer */
+  
+.footer {
+    border-radius: 5.49vw 5.49vw 0px 0px;
+    background-color: #F8F6F8;
+    height: 211px;
+    width: 100%;
+    display: flex;
+}
+  
+.footer-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    
+}
+
+.footer-logo {
+    margin-left: 4.06vw;
+    margin-right: 6.40vw;
+}
+
+.footer-logo-img{
+    width: 16.7vw;
+}
+
+.footer-right {
+    display: flex;
+}
+  
+.footer-nav-list {
+    margin-top: 38px;
+    margin-right: 7.13vw;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.66vw; /*32px*/
+    line-height: 1.82vw; /*35px*/
+    color: #FF9000;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.about-us-heading {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
+    color: #FF9000;
+    margin-top: 1.97vw;
+    margin-bottom: 15px;
+}
+
+.about-us-list {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw; /*24px*/
+    line-height: 1.35vw; /*26px*/
+    color: #000000;
+}
+
+.about-us-item {
+    margin-right: 8.33vw;
+    margin-bottom: 5px;
+}
+  
+/*!!!!!!!!GENERAL_STYLES!!!!!!!!!!*/    
+    
 body{
     background-image: url(/images/Frame\ 12.png);
+    width: 100%;
 }
 
 h1{
@@ -10,11 +221,20 @@ h2{
     margin: 0;
 }
 
+.settings_title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.86vw;
+    line-height: 3.64vw;
+    color: #FF9000;
+}
+
 .main-info_edit{
     margin: auto;
     margin-top: 82px;
-    max-width: 1736px;
-    padding: 64px 74px 32px 70px;
+    width: 90.4vw;
+    padding: 64px 3.85vw 32px 3.64vw;
     background: #F8F6F8;
     border-radius: 21px;
 }
@@ -24,8 +244,8 @@ h2{
     font-family: 'Mont';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 82px;
+    font-size: 3.33vw;
+    line-height: 4.27vw;
     color: #FF9000;
     margin-bottom: 44px;
 }
@@ -34,23 +254,22 @@ h2{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #FF9000;
     margin-bottom: 12px;
 }
 
 .main_input{
     box-sizing: border-box;
-    max-width: 518px;
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.45vw;
+    line-height: 1.56vw;
     color: #828396;
-    min-width: 518px;
-    max-height: 60px;
+    width: 26.9vw;
+    height: 3.125;
 }
 
 .main_select{
@@ -74,6 +293,8 @@ h2{
 .main-info_edit_form{
     display: flex;
 }
+
+/*TEXTAREA*/
 
 .textarea-heading{
     width: 100%;
@@ -118,18 +339,9 @@ h2{
     margin-left: 9px;
 }
 
-.settings_title{
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 55px;
-    line-height: 70px;
-    color: #FF9000;
-}
-
 .center_container{
     display: flex;
-    max-width: 1736px;
+    width: 90.4vw;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 72px;
@@ -142,39 +354,16 @@ h2{
     margin-right: 2.7vw;
 }
 
-.people{
-    background: #F8F6F8;
-    border-radius: 21px;
-    padding: 64px 48px 48px 70px;
-}
-
-.photos{
-    background: #F8F6F8;
-    border-radius: 21px;
-    padding: 60px 76px 54px 52px;
-}
-
-.photos_title{
-    margin-bottom: 27px;
-}
-
 .addition{
     display: flex;
 }
 
-.photos_add{
-    display: flex;
-    align-items: center;
-}
+/*PEOPLE*/
 
-.photos_add-text{
-    font-family: 'Gordita';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
-    color: #000000;
-    margin-left: 27px;
+.people{
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 64px 48px 48px 70px;
 }
 
 .people_text{
@@ -196,10 +385,39 @@ h2{
     margin-left: 12px;
 }
 
+/*LINK*/
+
 .link{
     background: #F8F6F8;
     border-radius: 21px;
     padding: 24px 154px 24px 52px;
+}
+
+/*PHOTOS*/
+
+.photos{
+    background: #F8F6F8;
+    border-radius: 21px;
+    padding: 60px 76px 54px 52px;
+}
+
+.photos_title{
+    margin-bottom: 27px;
+}
+
+.photos_add{
+    display: flex;
+    align-items: center;
+}
+
+.photos_add-text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 27px;
 }
 
 .photos_main-word{
