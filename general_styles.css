@@ -123,16 +123,16 @@ h2 {
 }
 
 .input {
-  border: 0.15vw solid #090e2b;
+  border: 0.25vw solid #090E2B;
   border-radius: 4.01vw;
-  padding: 0.78vw 1.19vw 0.78vw 1.19vw;
+  padding: 0.78vw 1.198vw;
   margin-bottom: 13px;
   transition: 0.3s box-shadow, 0.3s border-color;
   background: #f3f0f8;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25vw;
-  line-height: 1.35vw;
+  font-size: 1.8vw;
+  line-height: 1.354vw;
 }
 
 .input:hover {
