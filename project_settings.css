@@ -9,11 +9,11 @@
 
 .main-info_edit{
     margin: auto;
-    margin-top: 82px;
+    margin-top: 4.27vw;
     width: 90.4vw;
-    padding: 64px 3.85vw 32px 3.64vw;
+    padding: 3.33vw 3.85vw 1.66vw 3.64vw;
     background: #F8F6F8;
-    border-radius: 21px;
+    border-radius: 1.09vw;
 }
 
 .main-info_title{  
@@ -24,7 +24,7 @@
     font-size: 3.33vw;
     line-height: 4.27vw;
     color: #FF9000;
-    margin-bottom: 44px;
+    margin-bottom: 2.29vw;
 }
 
 .input-heading{
@@ -34,7 +34,7 @@
     font-size: 1.66vw;
     line-height: 1.82vw;
     color: #FF9000;
-    margin-bottom: 12px;
+    margin-bottom: 0.625vw;
 }
 
 .main_input{
@@ -46,18 +46,18 @@
     line-height: 1.56vw;
     color: #828396;
     width: 26.9vw;
-    height: 3.125;
+    height: 3.125vw;
 }
 
 .main_select{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.52vw;
+    padding-bottom: 0.52vw;
     background: url(/images/arrow.png) no-repeat right #ddd;
-    -webkit-appearance: none;
+    -webkit-appearance: none; /*ВАЖНАЯ СТРОЧКА - НЕ УБИРАТЬ*/
 }
 
 .main_input:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 1.56vw;
 }
 
 .main-info_edit_item:last-child{
@@ -84,15 +84,15 @@
     max-height: 120px;
     background: #F3F0F8;
     border: 3px solid #090E2B;
-    border-radius: 20px;
+    border-radius: 1.04vw;
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.45vw;
+    line-height: 1.56vw;
     color: #828396;
-    margin-bottom: 28px;
-    padding: 26px 24px 26px 24px;
+    margin-bottom: 1.45vw;
+    padding: 1.35vw 1.25vw 1.35vw 1.25vw;
 }
 
 .textarea:last-child{
@@ -110,18 +110,18 @@
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.45vw;
+    line-height: 1.56vw;
     color: #FF9000;
-    margin-left: 9px;
+    margin-left: 0.46vw;
 }
 
 .center_container{
     display: flex;
     width: 90.4vw;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 72px;
+    margin-top: 3.125vw;
+    margin-bottom: 3.75vw;
 }
 
 .center_container_item{
@@ -139,16 +139,16 @@
 
 .people{
     background: #F8F6F8;
-    border-radius: 21px;
-    padding: 64px 48px 48px 70px;
+    border-radius: 1.09vw;
+    padding: 3.33vw 2.5vw 2.5vw 3.64vw;
 }
 
 .people_text{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #000000;
 }
 
@@ -156,10 +156,10 @@
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #FF9000;
-    margin-left: 12px;
+    margin-left: 0.625vw;
 }
 
 /*LINK*/
@@ -174,12 +174,12 @@
 
 .photos{
     background: #F8F6F8;
-    border-radius: 21px;
-    padding: 60px 76px 54px 52px;
+    border-radius: 1.09vw;
+    padding: 3.125vw 3.95vw 2.81vw 52px;
 }
 
 .photos_title{
-    margin-bottom: 27px;
+    margin-bottom: 1.40vw;
 }
 
 .photos_add{
