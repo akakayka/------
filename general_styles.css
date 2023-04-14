@@ -23,6 +23,7 @@ a:visited {
 
 input {
   text-decoration: none;
+  border: 0px;
 }
 
 ul {
@@ -126,7 +127,6 @@ h2 {
   border: 0.15vw solid #090E2B;
   border-radius: 4.01vw;
   padding: 0.78vw 1.198vw;
-  margin-bottom: 13px;
   transition: 0.3s box-shadow, 0.3s border-color;
   background: #f3f0f8;
   font-style: normal;
