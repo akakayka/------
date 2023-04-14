@@ -135,77 +135,75 @@ html{
 }
   
   /* Footer */
-  
-.footer {
-    border-radius: 5.49vw 5.49vw 0px 0px;
-    background-color: #F8F6F8;
-    height: 211px;
-    width: 100%;
-    display: flex;
-}
-  
-.footer-container {
+.footer{
+    background: #F8F6F8;
+    border-radius: 3.12vw 3.12vw 0px 0px;
+    padding: 1.97vw 7.55vw 1.4vw 4.16vw;
     display: flex;
     align-items: center;
-    height: 100%;
-    margin-top: auto;
-    
+    width: 100%;
+    height: 10.9vw;
 }
 
-.footer-logo {
-    margin-left: 4.06vw;
-    margin-right: 6.40vw;
+.footer_logo{
+    margin-right: 6.3vw;
 }
 
-.footer-logo-img{
+.footer_logo-img{
     width: 16.7vw;
 }
 
-.footer-right {
-    display: flex;
-}
-  
-.footer-nav-list {
-    margin-top: 38px;
-    margin-right: 7.13vw;
+.footer_nav{
     display: flex;
     flex-direction: column;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.66vw; /*32px*/
-    line-height: 1.82vw; /*35px*/
-    color: #FF9000;
+    margin-right: 7.13vw;
 }
 
-.footer-nav-item:not(:last-child) {
-    margin-bottom: 18px;
-}
-
-.about-us-heading {
+.nav_link{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
     font-size: 1.66vw;
     line-height: 1.82vw;
     color: #FF9000;
-    margin-top: 1.97vw;
-    margin-bottom: 15px;
+    white-space: nowrap;
 }
 
-.about-us-list {
+.nav_link:not(:last-child){
+    margin-bottom: 1.09vw;
+}
+
+.about-us_contacts{
+    display: flex;
+}
+
+.about-us_contacts-text{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25vw; /*24px*/
-    line-height: 1.35vw; /*26px*/
+    font-size: 1.25vw;
+    line-height: 1.35vw;
     color: #000000;
+    white-space: nowrap;
+    margin-bottom: 0.46vw ;
 }
 
-.about-us-item {
-    margin-right: 8.33vw;
-    margin-bottom: 5px;
+.about-us_container{
+    display: flex;
+    flex-direction: column;
 }
-  
+
+.about-us_contacts-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us_contacts-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6.97vw;
+}
+
 /*!!!!!!!!GENERAL_STYLES!!!!!!!!!!*/    
     
 body{
