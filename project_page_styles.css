@@ -1,24 +1,18 @@
-body{
-    background-image: url(/images/Frame\ 12.png);
-}
-
 h1{
-    margin: 0;
     font-family: 'Mont';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 82px;
+    font-size: 3.33vw;
+    line-height: 4.27vw;
     color: #FF9000;
 }
 
 h2{
-    margin: 0;
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 39px;
+    font-size: 1.86vw;
+    line-height: 2.03vw;
     color: #FF9000;
 }
 
@@ -28,39 +22,39 @@ p{
 
 .hero{
     margin: 0 auto;
-    margin-top: 100px;
-    max-width: 1750px;
-    padding: 92px;
-    padding-right: 158px;
+    margin-top: 5.20vw;
+    width: 91.1vw;
+    padding: 4.79vw;
+    padding-right: 8.22vw;
     background-image: url(/images/hero_background.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(20px) saturate(120%);
     display: flex;
     justify-content: space-between;
-    border-radius: 21px;
+    border-radius: 1.09vw;
 }
 
 .hero-description{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #F8F6F8;
-    margin-top: 8px;
-    margin-bottom: 28px;
+    margin-top: 0.41vw;
+    margin-bottom: 1.45vw;
 }
 
 .hero_info{
-    max-width: 710px;
+    width: 36.9vw;
 }
 
 .hero_title{
-    margin-bottom: 70px;
+    margin-bottom: 3.64vw;
 }
 
 .hero-review_title{
-    margin-bottom: 12px;
+    margin-bottom: 0.625vw;
 }
 
 .hero_img{
@@ -71,74 +65,82 @@ p{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #F8F6F8;
 }
 
 .last_star{
-    margin-right: 14px; 
+    margin-right: 0.72vw; 
 }
 
 .hero-review_item-review{
     display: inline-block;
-    transform: translateY(-4px);
+    transform: translateY(-0.2vw);
 }
 
 .main_container{
     /*max-width: 1760px;*/
     margin: auto;
-    margin-top: 78px;
-    margin-bottom: 58px;
+    margin-top: 4.06vw;
+    margin-bottom: 3.02vw;
     display: flex;
     justify-content: space-evenly;
 }
 
 .description{
-    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48.9vw;
     background: #F8F6F8;
-    border-radius: 21px;
-    padding: 61px 70px 40px 70px;
+    border-radius: 1.09vw;
+    padding: 3.17vw 3.64vw 2.08vw 3.64vw;
 }
 
 .about-project{
     background: #F8F6F8;
-    border-radius: 21px;
-    max-width: 780px;
-    padding: 61px 61px 54px 48px;
+    border-radius: 1.09vw;
+    width: 40.6vw;
+    padding: 3.17vw 3.17vw 2.81vw 2.5vw;
 }
 
 .description_title{
-    margin-bottom: 38px;
+    margin-bottom: 1.97vw;
 }
 
 .description_text{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #000000;
-    margin-bottom: 33px;
+    margin-bottom: 1.71vw;
 }
 
 .link_container_left-part{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 39px;
+    font-size: 1.87vw;
+    line-height: 2.03vw;
     color: #FF9000;
-    margin-right: 31px;
+    margin-right: 1.61vw;
+}
+
+.link_container_right-part{
+    display: flex;
 }
 
 .description_link{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #000000;
+    white-space: nowrap;
 }
 
 .link_container{
@@ -150,10 +152,11 @@ p{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 39px;
+    font-size: 1.875vw;
+    line-height: 2.03vw;
     color: #FF9000;
-    min-width: 320px;
+    width: 16.6vw;
+    margin-right: 1.56vw;
 }
 
 .about-project_category_description{
@@ -161,38 +164,47 @@ p{
     font-style: normal;
     text-align: left;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #000000;
-    min-width: 362px;
+    width: 18.8vw;
 }
 
 .about-project_category{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin-bottom: 3.125vw;
 }
 
 .about-project_edit{
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 1.45vw;
+    line-height: 1.56vw;
     color: #FF9000;
 }
 
+.about-project_title{
+    margin-bottom: 1.61vw;
+}
+
 .about-project_img{
-    margin-right: 15px;
+    margin-right: 0.78vw;
+    width: 2.03vw;
 }
 
 .review{
     display: flex;
-    padding: 56px;
+    margin: auto;
+    width: 91.6vw;
+    padding: 2.91vw;
     background: #F8F6F8;
-    border-radius: 21px;
+    border-radius: 1.09vw;
     justify-content: space-between;
-    margin-bottom: 58px;
+    margin-bottom: 3.02vw;
 }
 
 .review_item{
@@ -205,8 +217,8 @@ p{
 }
 
 .review_stars{
-    width: 6%;
-    margin-bottom: 26px;
+    width: 3.07vw;
+    margin-bottom: 1.35vw;
 }
 
 .review_text{
@@ -214,12 +226,20 @@ p{
     font-family: 'Gordita';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1.66vw;
+    line-height: 1.82vw;
     color: #000000;
-    margin-top:25px;
+    margin-top: 1.30vw;
 }
 
 .review-title{
-    margin-bottom: 28px;
+    margin-bottom: 1.45vw;
+}
+
+.star_img{
+    width: 2.65vw;
+}
+
+.hero_pic{
+    width: 27.7vw;
 }

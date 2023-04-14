@@ -7,7 +7,7 @@
     <title>Project</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="general_styles.css">
-    <link rel="stylesheet" href="onepage_profile.css">
+    <link rel="stylesheet" href="project_page_styles.css">
     <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
 </head>
 <body>
@@ -30,7 +30,7 @@
         </div>
     </header>
 
-    <main style="display: none;">
+    <main style="display: inline;">
         <div class="hero">
             <div class="hero_info">
                 <h1 class="hero_title">Название проекта</h1>
@@ -41,11 +41,11 @@
                 <div class="hero_review">
                     <div class="hero-review_item">
                         <div class="hero_review_stars hero-review_description">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_empty.png">
-                            <img class="last_star" src="/images/star_empty.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_empty.png">
+                            <img class="star_img last_star" src="/images/star_empty.png">
                             <span class="hero-review_item-review">
                                 3.5 (пользователями)
                             </span>  
@@ -53,11 +53,11 @@
                     </div>
                     <div class="hero-review_item">
                         <div class="hero_review_stars hero-review_description">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_full.png">
-                            <img src="/images/star_full.png">
-                            <img class="last_star" src="/images/star_empty.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img" src="/images/star_full.png">
+                            <img class="star_img last_star" src="/images/star_empty.png">
                             <span class="hero-review_item-review">
                                 4.5 (пользователями)
                             </span> 
@@ -66,17 +66,19 @@
                 </div>
             </div>
             <div class="hero_img">
-                <img src="/images/hero_img.png">
+                <img class="hero_pic" src="/images/hero_img.png">
             </div>
         </div>
 
         <div class="main_container">
             <div class="description">
-                <h1 class="description_title">Описание</h1>
-                <p class="description_text">Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании <br>
-                    Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании <br>
-                    Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
-                </p>
+                <div>
+                    <h1 class="description_title">Описание</h1>
+                    <p class="description_text">Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании <br>
+                        Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании <br>
+                        Здесь довольно большой текст, который служит описанием проект, истории его реализции, для чего он предназначен и чем может помочь другим в использовании
+                    </p>
+                </div>
                 <div class="link_container">
                     <div class="link_container_left-part">
                         Ссылка на скачивание
@@ -87,7 +89,7 @@
                 </div>
             </div>
             <div class="about-project">
-                <h1>О проекте</h1>
+                <h1 class="about-project_title">О проекте</h1>
                 <div class="about-project_category_section">
                     <div class="about-project_category">
                         <div class="about-project_category_header">Специализация</div>
@@ -115,8 +117,8 @@
                 <div class="about-project_edit">
                     <div>
                         <img class="about-project_img" src="/images/pen.png">
-                        Редактировать
                     </div>
+                    <div>Редактировать</div>
                 </div>
             </div>
         </div>
