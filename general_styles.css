@@ -86,7 +86,12 @@ h2 {
   height: 100%;
 }
 
+.logo-img {
+  min-width: 16.7vw;
+}
+
 .logo {
+  min-width: 16.7vw;
   width: 16.7vw;
   margin-left: 3.95vw;
   margin-right: 6.77vw;

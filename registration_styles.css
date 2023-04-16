@@ -65,6 +65,11 @@ html, body {
     margin-right: 1.25vw;
 }
 
+h3 {
+    margin-top: 0px;
+    padding: 0px;
+}
+
 input, div {
     margin: 0;
 }
