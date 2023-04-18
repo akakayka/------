@@ -41,13 +41,7 @@ html {
     line-height: 4.27083vw;
 }
 
-.user-text {
-    font-family: 'Gordita';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6667vw;
-    line-height: 1.8229vw;
-}
+
 
 .user-statistic-container {
     display: flex;
@@ -253,15 +247,3 @@ h3 {
     margin-top: auto;
 }
 
-.abour-project {
-    font-weight: 400;
-    font-size: 1.46vw;
-    line-height: 1.5625vw;
-    color: #FF9000;
-}
-
-.abour-project-icon {
-    min-width: 0.7vw;
-    max-width: 0.7vw;
-    margin-left: 0.68125vw;
-}

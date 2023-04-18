@@ -11,7 +11,10 @@ body {
   font-weight: 400;
   font-size: 2.5vw;
   line-height: 2.7vw;
+  border: 0px !important;
 }
+
+p {margin: 0;}
 
 a {
   text-decoration: none;
@@ -42,6 +45,64 @@ html {
 
 * {
   box-sizing: border-box;
+}
+
+.user-text {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6667vw;
+  line-height: 1.8229vw;
+}
+
+.statistic-item:not(:last-child) {
+  margin-bottom: 0.41vw;
+}
+
+.user-statistic-header {
+  display: inline;
+  font-weight: 700;
+  font-size: 1.66667vw;
+  line-height: 1.8229vw;
+  color: #FF9000;
+  margin-bottom: 0.78125vw;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.statistic-item {
+  font-weight: 700;
+  font-size: 1.66667vw;
+  line-height: 1.8229vw;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.abour-project {
+  font-weight: 400;
+  font-size: 1.46vw;
+  line-height: 1.5625vw;
+  color: #FF9000;
+}
+
+.abour-project-icon {
+  min-width: 0.7vw;
+  max-width: 0.7vw;
+  margin-left: 0.68125vw;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card-container {
+  background-color: #F8F6F8;
+  border-radius: 1.1vw;
 }
 
 .container {
