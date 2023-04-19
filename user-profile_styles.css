@@ -30,6 +30,7 @@ html {
     width: 41.823vw;
     padding-left: 3.28125vw;
     padding-right: 1.97vw;
+    justify-content: space-between;
 }
 
 
@@ -93,7 +94,7 @@ button {
 }
 
 .statistic-item {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.66667vw;
     line-height: 1.8229vw;
     flex-wrap: nowrap;
